@@ -1,0 +1,109 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/* Wrapper Settings */
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+/* Header */
+.intro{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    color: #926239;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 350px;
+}
+.welcome{
+    text-transform: capitalize;   
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.intro_info{
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+.read_more_link{
+    display: block;
+    height: 52px;
+    width: 140px;
+    border:1px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: inherit;
+    margin-left: calc(50% - 70px);
+    transition: 0.3s all linear;
+}
+.read_more_link:hover{
+    border:1px solid #0c0a09;
+    box-shadow:inset 1px 1px 0.5px #46403b;
+    background-color: #c49b75;
+    color: #ffff;
+    height: 52px;
+    width: 160px;
+    margin-left: calc(50% - 80px);
+}
+/*Main Part*/
+.main_info{
+    color:#ffff;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    background-color: #926239;
+    text-align: center;
+}
+.main_info section{
+    padding: 20px;
+}
+.text_3_element_1,.text_3_element_2,.text_3_element_3{
+    display: inline-block;
+    width: 33%;
+}
+.text_2{
+    background-color: #f4f4f4;
+    color:#926239
+}
+.text_3_element_2{
+    background-color: #ffff;
+    color:#926239
+}
